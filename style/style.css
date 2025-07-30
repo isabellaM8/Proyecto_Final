@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: write;
+    color: black;
+    padding: 1px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.contenedor_principal{
+    flex:auto;
+    display: flex;
+    height: 100vh;
+
+}
+.main{
+    flex: 3;
+    padding: 40px;
+    background-color: rgb(224, 232, 229);
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu {
+    flex: 3;
+    background-color: rgb(0, 153, 255);
+    color: :black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.menu ul{
+    list-style: none;
+    text-align: center;
+}
+.menu li{
+    margin: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.menu a:hover{
+    color: darkgreen;
+}
+img{
+   width: 20%;
+   height: auto;
+   position: absolute;
+   text-align: center;
+   top: 10%;
+   left: 40%;
+}
